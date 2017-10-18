@@ -49,8 +49,8 @@ $mm-blue: #0F145B;
 $mm-white: #FFFFFF;
 
 $mm-steel-gray: #697B79;
-$mm-steel-gray-light: #697B79;
-$mm-steel-gray-lighter: #697B79;
+$mm-steel-gray-light: #90AFA9;
+$mm-steel-gray-lighter: #BADBD6;
 
 $mm-tangerine: #EA4E39;
 $mm-tangerine-light: #F5856D;
@@ -141,7 +141,7 @@ $theme-colors: (
 ) !default;
 
 // Set a specific jump point for requesting color jumps
-$theme-color-interval: 8% !default;
+$theme-color-interval: 4% !default;
 
 
 // Options
@@ -243,9 +243,9 @@ $line-height-sm:         1.5 !default;
 
 $border-width: 1px !default;
 
-$border-radius:          .25rem !default;
-$border-radius-lg:       .3rem !default;
-$border-radius-sm:       .2rem !default;
+$border-radius:          0rem; // .25rem !default;
+$border-radius-lg:       0rem; // .3rem !default;
+$border-radius-sm:       0rem; // .2rem !default;
 
 $component-active-color: $white !default;
 $component-active-bg:    theme-color("primary") !default;

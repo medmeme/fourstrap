@@ -26,6 +26,15 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+// Bootstrap 4 depends on jQuery so we want to build it with it.
+
+
+window.jQuery = jQuery;
+
+// Bootstrap 4 also depends on popper.js again bundle it with it.
+
+
+window.Popper = popper;
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0-beta): util.js

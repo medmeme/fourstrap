@@ -44,6 +44,36 @@
 // Code
 
 
+// Medmeme Colors
+$mm-blue: #0F145B;
+$mm-white: #FFFFFF;
+
+$mm-steel-gray: #697B79;
+$mm-steel-gray-light: #697B79;
+$mm-steel-gray-lighter: #697B79;
+
+$mm-tangerine: #EA4E39;
+$mm-tangerine-light: #F5856D;
+$mm-tangerine-lighter: #F7A392;
+
+$mm-azure: #0AA1EF;
+$mm-azure-light: #6CC7F5;
+$mm-azure-lighter: #CEECFC;
+
+$mm-indigo: #3E46B9;
+$mm-indigo-light: #6F78CE;
+$mm-indigo-lighter: #B2B3EC;
+
+$mm-jet-black: #1A1C3C;
+$mm-jet-black-light: #7F819F;
+$mm-jet-black-lighter: #D1D2D8;
+
+$mm-twlight: #A3A9F3;
+$mm-twlight-light: #C8CBF8;
+$mm-twlight-lighter: #DADDFA;
+
+
+
 //
 // Color system
 //
@@ -100,14 +130,14 @@ $colors: (
 ) !default;
 
 $theme-colors: (
-  primary: $blue,
-  secondary: $gray-600,
-  success: $green,
-  info: $cyan,
-  warning: $yellow,
-  danger: $red,
-  light: $gray-100,
-  dark: $gray-800
+  primary: $mm-azure-light,
+  secondary: $mm-jet-black-lighter,
+  success: $mm-steel-gray-lighter,
+  info: $mm-twlight-lighter,
+  warning: $mm-tangerine-lighter,
+  danger: $mm-tangerine,
+  light: $mm-white,
+  dark: $mm-blue
 ) !default;
 
 // Set a specific jump point for requesting color jumps
